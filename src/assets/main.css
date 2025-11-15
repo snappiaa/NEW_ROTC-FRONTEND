@@ -1,0 +1,54 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+  background-color: #ffffff;
+  color: #1a4d2e;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #009966;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00774d;
+}
+
+/* Element Plus overrides */
+.el-button--success {
+  background-color: #009966 !important;
+  border-color: #009966 !important;
+}
+
+.el-button--success:hover {
+  background-color: #00b377 !important;
+  border-color: #00b377 !important;
+}
+
+.el-input__wrapper {
+  border-radius: 8px !important;
+}
+
+.el-card {
+  border-radius: 12px !important;
+}
